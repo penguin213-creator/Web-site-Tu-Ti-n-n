@@ -1,0 +1,61 @@
+/* ===== RESET & BASE ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #8B0000;
+    --primary-dark: #660000;
+    --secondary: #4B0082;
+    --accent: #DAA520;
+    --accent-light: #FFD700;
+    --dark: #0a0a1a;
+    --darker: #050510;
+    --light: #1a1a2e;
+    --text: #f0f0f0;
+    --text-muted: #b0b0b0;
+    --border: rgba(218, 165, 32, 0.3);
+    --radius: 10px;
+    --shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    --transition: all 0.3s ease;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Noto Sans SC', sans-serif;
+    color: var(--text);
+    background: var(--darker);
+    line-height: 1.6;
+    overflow-x: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.chinese-font {
+    font-family: 'Ma Shan Zheng', cursive;
+    letter-spacing: 1px;
+}
+
+/* Custom Scrollbar - Thanh cuộn phong cách Tu Tiên */
+::-webkit-scrollbar {
+    width: 8px; /* Độ rộng của thanh cuộn */
+}
+
+::-webkit-scrollbar-track {
+    background: var(--darker); /* Màu nền của đường ray thanh cuộn */
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary); /* Màu của thanh kéo (đỏ) */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--accent); /* Khi di chuột vào sẽ đổi sang màu vàng */
+}

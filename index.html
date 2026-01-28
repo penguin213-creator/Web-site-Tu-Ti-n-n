@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Viết Truyện Tu Tiên - Thiên Đạo Văn Học</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="auth.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="video-background">
+        <div id="youtube-player"></div>
+        <div class="video-overlay"></div>
+        <div class="fallback-video">
+            <video autoplay muted loop playsinline>
+                <source src="https://assets.mixkit.co/videos/preview/mixkit-fantasy-clouds-in-the-sky-4469-large.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <div class="loading-screen">
+        <div class="loading-content">
+            <i class="fas fa-dragon loading-icon"></i>
+            <div class="loading-text">Đang khởi tạo Tiên Cảnh...</div>
+            <div class="loading-progress"></div>
+        </div>
+    </div>
+
+    <div class="browser-nav">
+        <button class="browser-btn" id="nut-quay-lai" title="Trở lại"><i class="fas fa-chevron-left"></i></button>
+        <button class="browser-btn" id="nut-tien-toi" title="Tiến tới"><i class="fas fa-chevron-right"></i></button>
+        <button class="browser-btn" id="nut-tai-lai" title="Tải lại"><i class="fas fa-redo"></i></button>
+    </div>
+
+    <header class="sticky-nav">
+        <nav class="navbar">
+            <div class="logo">
+                <i class="fas fa-dragon"></i>
+                <h1 class="chinese-font">Ngộ Đạo Trân Trang</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#" id="trang-chu" class="active"><i class="fas fa-home"></i> Trang Chủ</a></li>
+                <li><a href="#" id="thu-vien"><i class="fas fa-book"></i> Thư Viện</a></li>
+                <li><a href="#" id="viet-truyen"><i class="fas fa-feather-alt"></i> Viết Truyện</a></li>
+                <li><a href="#" id="dong-phu"><i class="fas fa-user-circle"></i> Động Phủ</a></li>
+                <li><a href="#" id="gioi-thieu"><i class="fas fa-info-circle"></i> Về Chúng Tôi</a></li>
+            </ul>
+            <div class="auth-buttons">
+                <button id="nut-dang-nhap" class="btn btn-outline"><i class="fas fa-sign-in-alt"></i> Đăng Nhập</button>
+                <button id="nut-dang-ky" class="btn btn-primary"><i class="fas fa-user-plus"></i> Đăng Ký</button>
+                <button id="nut-dang-xuat" class="btn btn-outline" style="display:none;"><i class="fas fa-sign-out-alt"></i> Đăng Xuất</button>
+            </div>
+            <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="hero-section">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="chinese-font">Tu Tiên Giả</h1>
+                    <h2 class="hero-subtitle">Viết Nên Thế Giới Của Riêng Ngươi!</h2>
+                    <p class="hero-description">Nơi hội tụ các cao thủ tu tiên văn học, cùng nhau sáng tạo thế giới tiên hiệp, ma đạo, võng du.</p>
+                    <div class="hero-buttons">
+                        <button id="nut-bat-dau-viet" class="btn btn-primary btn-large"><i class="fas fa-feather-alt"></i> Bắt Đầu Viết</button>
+                        <button id="nut-kham-pha" class="btn btn-secondary btn-large"><i class="fas fa-search"></i> Khám Phá Truyện</button>
+                    </div>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item"><div class="stat-number">3.676</div><div class="stat-label">Tu Luyện Giả</div></div>
+                    <div class="stat-item"><div class="stat-number">4</div><div class="stat-label">Bộ Truyện</div></div>
+                    <div class="stat-item"><div class="stat-number">36.000</div><div class="stat-label">Chương Truyện</div></div>
+                    <div class="stat-item"><div class="stat-number">76.000</div><div class="stat-label">Độc Giả</div></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-section" id="featured-section" style="display: none;">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="chinese-font"><i class="fas fa-crown"></i> Truyện Đỉnh Cao</h2>
+                    <p class="section-subtitle">Những tác phẩm đình đám nhất giới tu tiên văn học</p>
+                </div>
+                <div class="stories-grid">
+                    <div class="story-card">
+                        <div class="story-rank">#1</div>
+                        <div class="story-content">
+                            <h3 class="chinese-font">Vạn Cổ Chí Tôn</h3>
+                            <div class="story-meta"><span class="story-author"><i class="fas fa-user"></i> Cửu U Chân Nhân</span><span class="story-genre">Tiên Hiệp</span></div>
+                            <p class="story-desc">Linh khí khô kiệt, thánh nhân không xuất. Một thiếu niên từ nơi hoang vu đi ra...</p>
+                            <div class="story-stats"><span><i class="fas fa-eye"></i> 1.2M</span><span><i class="fas fa-heart"></i> 50K</span><span><i class="fas fa-bookmark"></i> 25K</span></div>
+                        </div>
+                    </div>
+                    <div class="story-card">
+                        <div class="story-rank">#2</div>
+                        <div class="story-content">
+                            <h3 class="chinese-font">Nghịch Thiên Thần Đế</h3>
+                            <div class="story-meta"><span class="story-author"><i class="fas fa-user"></i> Thần Võ Tôn Giả</span><span class="story-genre">Tiên Hiệp</span></div>
+                            <p class="story-desc">Thần đế chuyển thế, tái sinh thành phế vật thiếu gia...</p>
+                            <div class="story-stats"><span><i class="fas fa-eye"></i> 980K</span><span><i class="fas fa-heart"></i> 42K</span><span><i class="fas fa-bookmark"></i> 21K</span></div>
+                        </div>
+                    </div>
+                    <div class="story-card">
+                        <div class="story-rank">#3</div>
+                        <div class="story-content">
+                            <h3 class="chinese-font">Cửu Chuyển Kim Tiên Quyết</h3>
+                            <div class="story-meta"><span class="story-author"><i class="fas fa-user"></i> Tiêu Dao Tử</span><span class="story-genre">Tiên Hiệp</span></div>
+                            <p class="story-desc">Một bộ kim tiên quyết, chín lần chuyển sinh...</p>
+                            <div class="story-stats"><span><i class="fas fa-eye"></i> 850K</span><span><i class="fas fa-heart"></i> 38K</span><span><i class="fas fa-bookmark"></i> 19K</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="library-section" id="stories-section" style="display: none;">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="chinese-font"><i class="fas fa-book-open"></i> Thư Viện Truyện</h2>
+                    <p class="section-subtitle">Khám phá vô vàn truyện hay từ cộng đồng</p>
+                </div>
+                <div class="filters">
+                    <button class="filter-btn active" data-filter="all">Tất Cả</button>
+                    <button class="filter-btn" data-filter="tien-hiep">Tiên Hiệp</button>
+                    <button class="filter-btn" data-filter="ma-dao">Ma Đạo</button>
+                    <button class="filter-btn" data-filter="huyen-huyen">Huyền Huyễn</button>
+                    <button class="filter-btn" data-filter="vo-hiep">Võ Hiệp</button>
+                </div>
+                <div class="stories-container" id="container-truyen"></div>
+            </div>
+        </section>
+
+        <section class="write-section" id="write-section" style="display: none;">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="chinese-font"><i class="fas fa-feather-alt"></i> Viết Truyện Mới</h2>
+                    <p class="section-subtitle">Sáng tạo thế giới của riêng bạn</p>
+                </div>
+                <form id="form-truyen" class="story-form">
+                    <div class="form-row">
+                        <div class="form-group"><label for="tieu-de"><i class="fas fa-heading"></i> Tiêu đề</label><input type="text" id="tieu-de" placeholder="Nhập tiêu đề truyện..." required></div>
+                        <div class="form-group"><label for="the-loai"><i class="fas fa-tags"></i> Thể loại</label>
+                            <select id="the-loai" required><option value="">Chọn thể loại</option><option value="tien-hiep">Tiên Hiệp</option><option value="ma-dao">Ma Đạo</option><option value="huyen-huyen">Huyền Huyễn</option><option value="vo-hiep">Võ Hiệp</option><option value="do-thi">Đô Thị</option></select>
+                        </div>
+                    </div>
+                    <div class="form-group"><label for="tom-tat"><i class="fas fa-scroll"></i> Tóm tắt</label><textarea id="tom-tat" rows="3" placeholder="Tóm tắt nội dung truyện..."></textarea></div>
+                    <div class="form-group">
+                        <label for="noi-dung"><i class="fas fa-book"></i> Nội dung</label>
+                        <div class="editor-tools">
+                            <button type="button" class="tool-btn" title="In đậm"><i class="fas fa-bold"></i></button>
+                            <button type="button" class="tool-btn" title="In nghiêng"><i class="fas fa-italic"></i></button>
+                            <button type="button" class="tool-btn" title="Gạch chân"><i class="fas fa-underline"></i></button>
+                        </div>
+                        <textarea id="noi-dung" rows="15" placeholder="Viết nội dung truyện của bạn tại đây..." required></textarea>
+                        <div class="editor-footer"><div class="word-count"><i class="fas fa-font"></i><span id="dem-tu">0</span> từ</div></div>
+                    </div>
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary btn-large"><i class="fas fa-cloud-upload-alt"></i> Đăng Truyện</button>
+                        <button type="button" id="nut-luu-nhap" class="btn btn-outline"><i class="fas fa-save"></i> Lưu Nháp</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="profile-section" id="profile-section" style="display: none;">
+            <div class="container">
+                <div class="profile-header">
+                    <div class="profile-avatar"><i class="fas fa-user-ninja"></i><div class="cultivation-level"><span class="level-badge" id="cap-do">Trúc Cơ Kỳ</span></div></div>
+                    <div class="profile-info">
+                        <h2 id="ten-nguoi-dung" class="chinese-font">Chưa Đăng Nhập</h2>
+                        <p id="email">Vui lòng đăng nhập để xem thông tin</p>
+                        <div class="profile-stats" id="thong-ke"></div>
+                        <div class="xp-section">
+                            <div class="xp-header"><i class="fas fa-chart-line"></i><span>Đạo Hành</span><span class="xp-level">Cấp <span id="cap-hien-tai">1</span></span></div>
+                            <div class="xp-bar"><div class="xp-progress" id="thanh-xp" style="width: 0%"></div><div class="xp-labels"><span id="xp-hien-tai">0</span><span>/</span><span id="xp-can-thiet">100</span><span class="xp-text">Điểm Kinh Nghiệm</span></div></div>
+                            <div class="xp-stats">
+                                <div class="xp-stat"><i class="fas fa-book-reader"></i><span>Truyện Đã Đọc: <span id="truyen-da-doc">0</span></span></div>
+                                <div class="xp-stat"><i class="fas fa-trophy"></i><span>Cảnh Giới: <span id="canh-gioi" class="realm-badge realm-colors">Luyện Khí Kỳ</span></span></div>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="profile-tabs">
+                    <button class="tab-btn active" data-tab="truyen-cua-toi">Truyện Của Tôi</button>
+                    <button class="tab-btn" data-tab="ban-nhap">Bản Nháp</button>
+                    <button class="tab-btn" data-tab="da-luu">Đã Lưu</button>
+                </div>
+                <div class="tab-content active" id="truyen-cua-toi"><div id="danh-sach-truyen"></div></div>
+            </div>
+        </section>
+
+        <section class="about-section" id="about-section" style="display: none;">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="chinese-font"><i class="fas fa-info-circle"></i> Về Chúng Tôi</h2>
+                    <p class="section-subtitle">Đội ngũ phát triển và thông tin website</p>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-card intro-card">
+                        <div class="about-header">
+                            <div class="about-logo">
+                                <i class="fas fa-dragon"></i>
+                            </div>
+                            <div class="about-title">
+                                <h3 class="chinese-font">Ngộ Đạo Trân Trang</h3>
+                                <p>Web Viết Truyện Tu Tiên - Đồ Án Tốt Nghiệp</p>
+                            </div>
+                        </div>
+                        <div class="about-body">
+                            <div class="about-description">
+                                <h4><i class="fas fa-scroll"></i> Giới Thiệu Website</h4>
+                                <p>"Ngộ Đạo Trân Trang" là nền tảng viết truyện tu tiên với giao diện đậm chất tiên hiệp...</p>
+                                <ul>
+                                    <li><i class="fas fa-feather-alt"></i> Sáng tác truyện tiên hiệp, ma đạo, huyền huyễn</li>
+                                    <li><i class="fas fa-book-reader"></i> Đọc và thưởng thức tác phẩm của cộng đồng</li>
+                                    <li><i class="fas fa-chart-line"></i> Tu luyện và tăng cấp thông qua hệ thống kinh nghiệm</li>
+                                    <li><i class="fas fa-users"></i> Kết giao đạo hữu, chia sẻ đạo tâm</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-section">
+                        <h3 class="section-title"><i class="fas fa-users"></i> Đội Ngũ Phát Triển</h3>
+                        <div class="team-members">
+                            <div class="team-card">
+                                <div class="member-avatar">
+                                    <img src="./z7473750129631_d408a36da2363fe48608d719c288f4de.jpg" alt="Nguyễn Minh Chính">
+                                    <div class="member-role">Trưởng nhóm</div>
+                                </div>
+                                <div class="member-info">
+                                    <h4 class="chinese-font">TRƯỜNG TRUNG CẤP CÔNG NGHIỆP BÌNH DƯƠNG</h4>
+                                    <div class="member-name-section">
+                                        <div class="member-name-card">
+                                            <div class="name-icon"><i class="fas fa-user-ninja"></i></div>
+                                            <div class="name-content">
+                                                <div class="name-label">THÀNH VIÊN:</div>
+                                                <div class="name-value">Nguyễn Minh Chính</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="member-details">
+                                        <div class="detail-item"><i class="fas fa-user-graduate"></i><div><strong>Lớp:</strong><p>24NTH02</p></div></div>
+                                        <div class="detail-item"><i class="fas fa-id-card"></i><div><strong>Mã số sinh viên</strong><p>24N01153</p></div></div>
+                                        <div class="detail-item"><i class="fas fa-book"></i><div><strong>Chuyên ngành</strong><p>Công Nghệ Thông Tin</p></div></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="team-card">
+                                <div class="member-avatar">
+                                    <img src="./vcl chịu bố.jpg" alt="Hồ Văn Bảo">
+                                    <div class="member-role">Thành viên</div>
+                                </div>
+                                <div class="member-info">
+                                    <h4 class="chinese-font">TRƯỜNG TRUNG CẤP CÔNG NGHIỆP BÌNH DƯƠNG</h4>
+                                    <div class="member-name-section">
+                                        <div class="member-name-card">
+                                            <div class="name-icon"><i class="fas fa-user-ninja"></i></div>
+                                            <div class="name-content">
+                                                <div class="name-label">THÀNH VIÊN:</div>
+                                                <div class="name-value">Hồ Văn Bảo</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="member-details">
+                                        <div class="detail-item"><i class="fas fa-user-graduate"></i><div><strong>Lớp:</strong><p>24NTH02</p></div></div>
+                                        <div class="detail-item"><i class="fas fa-id-card"></i><div><strong>Mã số sinh viên</strong><p>24N01201</p></div></div>
+                                        <div class="detail-item"><i class="fas fa-book"></i><div><strong>Chuyên ngành</strong><p>Công Nghệ Thông Tin</p></div></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-section">
+                        <div class="contact-card">
+                            <h3 class="section-title"><i class="fas fa-address-card"></i> Thông Tin Liên Hệ</h3>
+                            <div class="contact-info">
+                                <div class="contact-item"><i class="fas fa-university"></i><div><h4>Trường Trung Cấp Công Nghiệp Bình Dương</h4><p>Thành phố Tân Uyên, Bình Dương, Việt Nam</p></div></div>
+                                <div class="contact-item"><i class="fas fa-envelope"></i><div><h4>Email liên hệ</h4><p>truongtccnbd@gmail.com</p></div></div>
+                                <div class="contact-item"><i class="fas fa-phone"></i><div><h4>Điện thoại</h4><p>0935 656.603</p></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="modal" id="modal-dang-nhap">
+            <div class="modal-content">
+                <span class="close-modal">×</span>
+                <h2 class="chinese-font"><i class="fas fa-sign-in-alt"></i> Đăng Nhập</h2>
+                <form id="form-dang-nhap">
+                    <div class="form-group"><label for="ten-dang-nhap"><i class="fas fa-user"></i> Tên đăng nhập</label><input type="text" id="dangnhap-tendangnhap" placeholder="Nhập tên đăng nhập" required></div>
+                    <div class="form-group"><label for="mat-khau"><i class="fas fa-lock"></i> Mật khẩu</label>
+                        <div class="password-input"><input type="password" id="dangnhap-matkhau" placeholder="Nhập mật khẩu" required><button type="button" class="toggle-password"><i class="fas fa-eye"></i></button></div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block"><i class="fas fa-sign-in-alt"></i> Đăng Nhập</button>
+                    <div class="form-footer">Chưa có tài khoản? <a href="#" id="hien-dang-ky">Đăng ký ngay</a></div>
+                </form>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-dang-ky">
+            <div class="modal-content">
+                <span class="close-modal">×</span>
+                <h2 class="chinese-font"><i class="fas fa-user-plus"></i> Đăng Ký</h2>
+                <form id="form-dang-ky">
+                    <div class="form-group"><label for="ten-dang-ky"><i class="fas fa-user"></i> Tên đăng nhập</label><input type="text" id="dangky-tendangnhap" placeholder="Nhập tên đăng nhập" required></div>
+                    <div class="form-group"><label for="email-dang-ky"><i class="fas fa-envelope"></i> Email</label><input type="email" id="dangky-email" placeholder="Nhập email" required></div>
+                    <div class="form-group"><label for="mat-khau-dang-ky"><i class="fas fa-key"></i> Mật khẩu</label>
+                        <div class="password-input"><input type="password" id="dangky-matkhau" placeholder="Nhập mật khẩu" required><button type="button" class="toggle-password"><i class="fas fa-eye"></i></button></div>
+                    </div>
+                    <div class="form-group"><label for="xac-nhan-mat-khau"><i class="fas fa-shield-alt"></i> Xác nhận mật khẩu</label><input type="password" id="dangky-xacnhanmatkhau" placeholder="Xác nhận mật khẩu" required></div>
+                    <button type="submit" class="btn btn-primary btn-block"><i class="fas fa-user-plus"></i> Đăng Ký</button>
+                    <div class="form-footer">Đã có tài khoản? <a href="#" id="hien-dang-nhap">Đăng nhập ngay</a></div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo"><i class="fas fa-dragon"></i><h3 class="chinese-font">Ngộ Đạo Trân Trang</h3></div>
+                    <p class="footer-description">"Văn chương tu tiên, lấy chữ làm kiếm, lấy ý làm đạo"</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/bdi.edu.vn" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://x.com/Rhiachnash" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://discord.gg/exWetbg9" target="_blank"><i class="fab fa-discord"></i></a>
+                        <a href="https://youtu.be/lVWIAe4jjX0?si=2Dweue6SkoGOtHf0" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4><i class="fas fa-compass"></i> Khám Phá</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" data-section="hero-section">Trang Chủ</a></li>
+                        <li><a href="#" data-section="featured-section">Truyện Đỉnh Cao</a></li>
+                        <li><a href="#" data-section="stories-section">Thư Viện</a></li>
+                        <li><a href="#" data-section="write-section">Viết Truyện</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4><i class="fas fa-envelope"></i> Liên Hệ</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> truongtccnbd@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> 0935 656.603</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Thành phố Tân Uyên, Bình Dương</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Web Viết Truyện Tu Tiên. Giữ vững đạo tâm, sáng tạo vạn giới.</p>
+                <p class="team-credit">Được phát triển bởi đội ngũ 2 thành viên - Trường Trung Cấp Công Nghiệp Bình Dương</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.3662998399763!2d106.7725923!3d11.0111166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d86241940983%3A0x6295551229342756!2zVHLGsOG7nW5nIFRydW5nIGPhpZ1wIEPDtG5nIG5naGnhu4dwIELDrG5oIETGsMahbmc!5e0!3m2!1svi!2s!4v1700000000000!5m2!1svi!2s" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </footer>
+
+    <div class="nav-arrows">
+        <button class="nav-arrow arrow-left" id="nut-lui" title="Trở lại" style="display:none"><i class="fas fa-arrow-left"></i></button>
+        <button class="nav-arrow arrow-home" id="nut-trang-chu" title="Về trang chủ"><i class="fas fa-home"></i></button>
+    </div>
+    
+    <script src="data.js"></script>
+    <script src="auth.js"></script>
+    <script src="java.js"></script>
+</body>
+</html>
