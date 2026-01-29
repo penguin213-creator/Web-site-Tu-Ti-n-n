@@ -114,7 +114,165 @@ Thấy hay thì nhấn chia sẻ nha, cám ơn..`,
                 author: 'Thần Võ Tôn Giả',
                 genre: 'tien-hiep',
                 synopsis: 'Thần đế chuyển thế, tái sinh thành phế vật thiếu gia. Nắm trong tay vô thượng thần công, bắt đầu con đường nghịch thiên phản thần...',
-                content: `Chương 1: Tái Sinh\n\nDạ Thần mở mắt, phát hiện mình đã tái sinh thành Dạ Vân - thiếu gia phế vật bị đuổi khỏi gia tộc.`,
+                content: `Chương 1:Offline mừng sinh nhật Tàng Thư Viện lần thứ 7 ở Vân Triệt ý thức dần dần thức tỉnh.
+
+Sao thế này...... Chẳng lẽ ta còn không có chết? Ta rõ ràng rơi xuống Tuyệt Vân nhai, như thế nào có thể còn sống ! hơn nữa trên người cư nhiên không có cảm giác đau đớn...... Liên cảm giác khó chịu đều không có? Đây là có chuyện gì?
+
+
+Vân Triệt lập tức mở mắt, nhanh chóng đứng dậy ngồi dậy, rõ ràng phát hiện, chính mình lại tại nhất trương mềm mại trên giường lớn, giường phía trên buông xuống đại hồng sắc mạn liêm, nhuộm đẫm một loại vui vẻ không khí.
+
+
+“A ! Tiểu Triệt ! ngươi...... Ngươi tỉnh !”
+
+
+Một kinh hỉ thiếu nữ thanh âm từ hắn bên tai truyền đến, tùy theo, một nữ hài tiễu nhan xuất hiện ở hắn tầm mắt bên trong.
+
+
+Đây là một nhìn qua chỉ có mười lăm mười sáu tuổi nữ hài, một thân màu xanh biếc váy dài, nộn nhan tuyết nhuận xinh đẹp, hồng nhuận cặp môi thơm tiên diễm ướt át, thanh tú mũi ngọc kiều kiều, một đôi lộ ra thâm thâm kinh hỉ mắt đẹp liền như một cái đầm trong suốt nước suối, thanh triệt trong suốt, sở sở động nhân. Cả khuôn mặt dịu dàng ôn nhu, minh diễm chiếu nhân. Còn tuổi nhỏ liền có như thế phong tư, lớn lên sau có thể nghĩ sẽ là như thế nào khuynh thành diễm sắc.
+
+
+Nhìn này gần trong gang tấc nữ hài, Vân Triệt ngắn ngủi mộng một chút, ba chữ hoàn toàn là theo bản năng thốt ra:“Tiểu cô?”
+
+
+Nữ hài tuyết trắng cổ tay trắng bóc nâng lên, Ôn Ngọc tiểu thủ đặt tại Vân Triệt trên trán, thần sắc của nàng cũng càng thêm thả lỏng một ít, vui vẻ nói:“Nhiệt độ cơ thể cũng kém không nhiều khôi phục bình thường , quá tốt, vừa rồi thiếu chút nữa muốn bị hù chết . Tiểu Triệt, ngươi trên người hiện tại có hay không nơi nào không thoải mái?”
+
+
+Đối mặt thiếu nữ tràn đầy thâm thâm thân thiết mâu quang, Vân Triệt có chút ngây ngốc lắc đầu...... Tinh thần hoàn toàn ở tự do trạng thái.
+
+
+“Ngươi trước hảo nghỉ ngơi trong chốc lát, ta lập tức đi nói cho ngươi gia gia. Hôm nay nhưng là ngươi đại hỉ ngày, ngươi bỗng nhiên té xỉu, ngươi gia gia thiếu chút nữa không cấp điên rồi, vừa rồi tự mình đi ra cửa thỉnh Tư Đồ Đại Sư .”
+
+
+Thiếu nữ vội vàng dưới, không có phát hiện Vân Triệt biểu tình trung khác thường, nàng ấn Vân Triệt bả vai khiến hắn nằm về trên giường, sau đó cước bộ vội vàng rời đi.
+
+
+Cửa bị đóng lại, Vân Triệt cũng lại lần nữa từ trên giường ngồi dậy, hai tay một chút ôm lấy chính mình đầu.
+
+
+Nơi này là Thiên Huyền đại lục thất quốc chi nhất Thương Phong đế quốc tối Đông Phương Tiểu Thành -- Lưu Vân thành, mà hắn, là Lưu Vân thành Tiêu môn ngũ trưởng lão duy nhất tôn tử -- Tiêu Triệt ! năm nay vừa mãn mười sáu tuổi.
+
+
+Đây là hắn hiện tại thân phận.
+
+
+Hắn ký ức, cùng tại Thương Vân đại lục kia hơn hai mươi năm ký ức nhất thời trùng điệp cùng một chỗ, khiến hắn một trận giật mình.
+
+
+Ta là Tiêu Triệt...... Kia Thương Vân đại lục ký ức lại là sao thế này?
+
+
+Chẳng lẽ là tại Thương Vân đại lục chết đi, xuyên việt đến trên khối thân thể này?
+
+
+Không đúng ! chính mình rõ ràng chính là Tiêu Triệt ! phòng này hết thảy chính mình đều vô cùng quen thuộc, từ nhỏ đến lớn, sở hữu ký ức rành mạch, sở hữu hết thảy đều là chính mình tự mình trải qua, tuyệt đối sẽ không là đánh cắp người khác ký ức !
+
+
+Chẳng lẽ Thương Vân đại lục hết thảy, chỉ là một giấc mộng? Tại chính mình rơi xuống Tuyệt Vân nhai sau, mộng bỗng nhiên tỉnh?
+
+
+Nhưng Thương Vân đại lục ký ức đồng dạng rõ ràng vô cùng...... Kia hai mươi bốn năm ân oán tình cừu, như thế nào có thể là mộng !
+
+
+Này đến cùng là sao thế này?
+
+
+Vân Triệt...... Hiện tại hẳn là Tiêu Triệt, hắn giật mình sau một lúc lâu, ánh mắt rốt cuộc chậm rãi bình tĩnh xuống dưới, suy nghĩ cũng chậm rãi rõ ràng.
+
+
+Lúc này chính trực sáng sớm thời gian, bên ngoài thiên không còn chưa đại lượng. Hôm nay, là hắn cùng Hạ Khuynh Nguyệt đại hôn ngày, hai khắc chung trước, hắn liền bị tiểu cô đánh thức, thay một thân đại hồng hỉ y, sau đó uống một chén tiểu cô tự tay ngao chúc, sau đó, hắn liền cảm giác toàn thân vô lực...... Sau đó liền cái gì cũng không biết .
+
+
+Cho tới bây giờ mới tỉnh lại.
+
+
+Lúc này, một mạt khác thường hương vị từ bên môi hắn truyền đến, Tiêu Triệt đem môi hơi hơi nhất mân, nhất thời sắc mặt khẽ biến.
+
+
+Đây là...... Thí Tâm tán ! !
+
+
+Tại Thương Vân đại lục kia vài năm, có Thiên Độc châu trong người Vân Triệt đối thiên hạ Vạn Độc rõ như lòng bàn tay, có thể nói trên đời không có hắn không biết độc, vô luận là cái gì độc, hắn chỉ cần nhẹ nhàng ngửi, liền có thể nháy mắt thức phân biệt loại này độc danh tự cùng cấu thành. Đồng thời, có được Thiên Độc châu hắn bách độc bất xâm, lại lợi hại độc, cũng không khả năng thương tổn hắn.
+
+
+Thí Tâm tán, là lấy Tuyệt Hồn thảo cùng Tử Văn Hải Đường sở chế thành, dung nhập trong nước sau vô sắc vô vị, nhập thể sau hơn mười giây thời gian liền khả đoạt nhân sinh cơ, trực tiếp bị mất mạng, trên thi thể thậm chí sẽ không hiện ra bất cứ trúng độc dấu vết.
+
+
+Tiêu Triệt ánh mắt nhất âm, nháy mắt hiểu ra.
+
+
+Nguyên lai, hắn không phải mới vừa hôn mê, hơn nữa sở uống chúc trung bị hạ Thí Tâm tán, sau đó bị độc chết ! chết đi luân hồi chuyển thế, sinh tại Thương Vân đại lục, tại Thương Vân đại lục rơi xuống Tuyệt Vân nhai sau...... Cư nhiên lại trùng sinh về ở kiếp trước vừa chết đi trên thân thể !
+
+
+Tuy rằng loại sự tình này nghe đi lên hoàn toàn chính là thiên phương dạ đàm, nhưng đây là Tiêu Triệt duy nhất có thể nghĩ đến khả năng !
+
+
+Đợi đã (vân vân)...... Nếu là lời như vậy, chính mình hiện tại thân thể căn bản không có kháng độc năng lực, vì cái gì vừa tiếp xúc bên môi Thí Tâm tán, hiện tại lại là bình yên vô sự?
+
+
+Một mạt đôi chút khác thường cảm từ hắn tay trái trong lòng bàn tay truyền đến, Tiêu Triệt nâng lên chính mình tay trái, rõ ràng phát hiện, lòng bàn tay bộ vị, thế nhưng ấn một quả lục sắc hình tròn ấn ký.
+
+
+Này ấn ký hình dạng, nhan sắc, lớn nhỏ...... Rõ ràng là Thiên Độc châu giống nhau như đúc !
+
+
+Tại rơi xuống Tuyệt Vân nhai tiền, tuyệt cảnh trung hắn trực tiếp đem Thiên Độc châu cấp nuốt đến trong bụng, hắn hoàn toàn không biết làm như vậy sẽ dẫn phát cái gì hậu quả. Mà lúc này, này trên tay ấn ký, dường như là Thiên Độc châu cũng cùng hắn cùng nhau xuyên việt lại đây !
+
+
+“Thiên Độc châu......” Ngẩn người nhìn này mai rất giống Thiên Độc châu ấn ký, Tiêu Triệt theo bản năng mặc niệm một tiếng.
+
+
+Theo hắn thanh âm hạ xuống, trong lòng bàn tay lục sắc ấn ký bỗng nhiên phóng ra một đoàn bích lục quang mang, trước mắt hắn nhất thời không ngọn nguồn nhất hoảng, đại não một trận đôi chút mê muội, khiến hắn theo bản năng nhắm hai mắt lại, tại hắn mở to mắt khi, hắn chung quanh thế giới, đã biến thành mờ mịt lục sắc.
+
+
+Này lục sắc thế giới trống trải một mảnh, nhìn không tới giới hạn, chung quanh tràn đầy độc chúc Thiên Độc châu mỏng manh khí tức, Tiêu Triệt ngưng một hồi lâu nhi mới rốt cuộc minh bạch, chính mình tinh thần thế nhưng tiến vào Thiên Độc châu bên trong thế giới.
+
+
+Nguyên lai Thiên Độc châu bên trong, cư nhiên còn có như vậy rộng lớn thế giới ! càng không thể tin tưởng là, chính mình bất kể hậu quả nuốt vào Thiên Độc châu, cư nhiên khiến Thiên Độc châu theo chính mình xuyên việt, còn tựa hồ trở thành chính mình thân thể một bộ phận !
+
+
+Nếu có thể đi vào đến, kia tất nhiên cũng có thể đi ra ngoài.
+
+
+Tiêu Triệt nhắm mắt lại, ý niệm khẽ nhúc nhích, nhất thời, chung quanh lục sắc thế giới nhanh chóng tán loạn, khiến lại mở to mắt khi, trong tầm mắt, đã là cái kia quen thuộc phòng.
+
+
+Nhìn lòng bàn tay cái kia màu xanh nhạt ấn ký, Tiêu Triệt chậm rãi nở nụ cười...... Tuy rằng không biết vì cái gì sẽ phát sinh như vậy khó có thể tin tưởng sự, nhưng chính mình chẳng những chết mà trùng sinh, còn có hai thế ký ức. Có lẽ, là lão thiên đều bất bình hắn này hai thế vận mệnh bi thảm, do đó lòng từ bi cho hắn một lần lại lấy được tân sinh cơ hội !
+
+
+Vân Triệt gặp Thương Vân đại lục vô số tuyệt đỉnh cường giả đuổi giết, tuy rằng cuối cùng Vẫn Diệt, nhưng hắn một người quấy thiên hạ phong vân, loại nào uy phong ! nhưng hắn hiện tại thân thể, lại là bình phàm...... Không khách khí điểm nói, là tra đến cực điểm.
+
+
+Thiên Huyền đại lục, Huyền Lực vi tôn. Tiêu Triệt tuy rằng sinh tại Tiêu môn, vẫn là thực lực tối cường ngũ trưởng lão Tiêu Liệt tôn tử, nhưng hắn đã là mười sáu chỉnh tuổi, Huyền Lực lại thủy chung đang ở Sơ Huyền cảnh một cấp, hắn từ bảy tuổi rưỡi bắt đầu tu huyền, tám tuổi tiến vào Sơ Huyền cảnh một cấp, sau chỉnh chỉnh tám năm Huyền Lực không có nửa phần tiến bộ, tại Tiêu môn trung nhận hết cười nhạo. Sau này Tiêu Liệt vì hắn mời đến Lưu Vân thành đệ nhất y sư Tư Đồ Doãn vì hắn kiểm tra thân thể, được đến đáp án như tình thiên phích lịch -- hắn dĩ nhiên là trời sinh huyết mạch bị hao tổn, hơn nữa tổn thương cực kỳ nghiêm trọng, cơ hồ không khả năng chữa trị. Dưới loại trạng thái này, Tiêu Triệt đem cả đời đứng ở Sơ Huyền cảnh một cấp, mặc cho như thế nào cố gắng, cũng không khả năng có tiến thêm.
+
+
+Liền tính liều chết tu luyện, cả đời cũng chỉ có thể là Sơ Huyền cảnh một cấp. Loại này nhân tại Thiên Huyền đại lục không thể nghi ngờ chính là tầng dưới chót nhất tồn tại, hoàn toàn trở thành Tiêu môn một đại trò cười, nếu không phải hắn gia gia Tiêu Liệt là Tiêu môn thậm chí toàn bộ Lưu Vân thành đệ nhất cường giả, căn bản không ai nguyện ý nhiều xem hắn một cái.
+
+
+Tiêu môn làm Lưu Vân thành tam đại tu Huyền gia tộc chi nhất, cường giả vô số, thế hệ trẻ nhân tài xuất hiện lớp lớp, Tiêu Triệt ở trong đó có thể nói hoàn toàn là có cũng được mà không có cũng không sao tồn tại, chẳng sợ hắn ngày nào đó chết, cũng căn bản không có vài người quan tâm, nhưng hôm nay lại có nhân không tiếc dùng Thí Tâm tán loại này thiên kim khó cầu Vô Ngân kịch độc độc giết hắn, nguyên nhân, hiện tại Tiêu Triệt đương nhiên rõ ràng thấu đáo.
+
+
+Bởi vì hôm nay là hắn cùng Hạ Khuynh Nguyệt đại hôn ngày.
+
+
+Hạ Khuynh Nguyệt cùng hắn cùng tuổi, đồng dạng chỉ có mười sáu tuổi. Nhưng như thế tiểu niên kỉ, nàng Huyền Lực lại nghe nói đã đạt tới Sơ Huyền cảnh thập cấp, sắp đột phá Sơ Huyền, bước vào Nhập Huyền cảnh. Có thể ở mười sáu tuổi tới như thế cảnh giới , nàng là Hạ gia trăm năm đến đệ nhất nhân, tại toàn bộ Lưu Vân thành trẻ tuổi đồng lứa trung cũng không có người có thể cùng nàng so sánh. Thậm chí có đồn đãi, nếu nàng tiến cảnh vẫn như vậy duy trì liên tục đi xuống, vài thập niên sau, nàng có khả năng trở thành Hạ gia từ trước tới nay đệ nhất bước vào Địa Huyền cảnh nhân...... Thậm chí, còn có khả năng đạt tới Lưu Vân thành trăm năm đến chưa bao giờ có người dám hy vọng xa vời Thiên Huyền cảnh !
+
+
+Càng mấu chốt là, nàng chẳng những thiên phú kinh người, càng là thiên tư quốc sắc, là Lưu Vân thành công nhận đệ nhất mĩ nữ. Lưu Vân thành cơ hồ sở hữu có chút tư bản thanh niên tài tuấn đều đối với nàng ái mộ thèm nhỏ dãi, nếu Hạ gia chọn rể, đăng môn nhân phỏng chừng đủ để từ Lưu Vân thành Bắc Môn bài đến Nam Môn.
+
+
+Chính là như vậy một thiên phú dung nhan đều có thể nói Lưu Vân thành chi tối thiên chi kiêu nữ, thế nhưng muốn gả cho Tiêu gia này một đời tối phế, hơn nữa liên một tia tiền đồ đều không khả năng có đệ tử, Lưu Vân thành không biết bao nhiêu nhân chủy chân đốn ngực, oán giận không thôi...... Này hoàn toàn chính là một đóa ngạo thế liên hoa cắm ở người khác xem đều lười xem một chút trên bãi phân trâu !
+
+
+Kia vài mê luyến Hạ Khuynh Nguyệt nhân đối Tiêu Triệt đương nhiên là ghen ghét nảy ra, càng nhiều là không cam tâm...... Sẽ có người độc giết hắn, tại hiện tại Tiêu Triệt nghĩ đến, một điểm đều không kỳ quái.
+
+
+“Quả nhiên là hồng nhan họa thủy.” Tiêu Triệt xuống giường đứng lên, một tiếng lầm bầm lầu bầu. Bất quá nghĩ đến Hạ Khuynh Nguyệt Khuynh Thành chi tư, hắn nhếch miệng nở nụ cười:“Bất quá có thể lấy được như vậy lão bà, thật đúng là không sai bắt đầu.”
+
+
+--------------------------
+
+
+Trực tiếp phụ thượng quyển sách Huyền Lực đẳng cấp thiết lập, từ để đến cao vi:[ Sơ Huyền cảnh → Nhập Huyền cảnh → Chân Huyền cảnh → Linh Huyền cảnh → Địa Huyền cảnh → Thiên Huyền cảnh → Vương Huyền cảnh → Bá Huyền cảnh → Quân Huyền cảnh → Thần Huyền cảnh →?], mỗi một cảnh giới phân một đến mười cấp..`,
                 chapters: 3,
                 likes: 42000,
                 views: 980000,
